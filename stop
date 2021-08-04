@@ -1,7 +1,0 @@
-#!/bin/bash
-
-echo "Stopping docker"
-docker-compose down
-
-echo "Stopping PHP"
-killall php
